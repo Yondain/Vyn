@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+html{
+	background-image: url(els.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 15%;
+	max-width: 70%;
+	font-size: medium;
+    font-style: italic;
+    font-family: 'Sriracha','Times New Roman', Times, serif;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
