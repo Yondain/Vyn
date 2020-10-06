@@ -1,0 +1,33 @@
+nav{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	background-color: rgba(155, 155, 155, 0.7);
+	background-image: url(solace.png);
+	opacity: 0.8;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	width: 60%;
+}
+
+nav ul li {
+	border-right: solid;
+}
+
+.searchBar {
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: center;
+	line-height: 35px;
+}
+.searchBar a{
+	color: rgb(255, 255, 255);
+}
